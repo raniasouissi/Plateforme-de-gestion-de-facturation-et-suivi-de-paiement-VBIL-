@@ -34,30 +34,25 @@
   - Factures marquées comme "Payé", "En attente" ou "Partiellement payé".
   - Historique détaillé des paiements.
 - Notifications automatiques intégrées pour :
-  - Les rappels des paiements en retard.
   - Les changements de statut des paiements.
-- Visualisation des transactions récentes.
 
 ### **Tableaux de bord interactifs**
 - **Statistiques financières** :
-
   - Nombre de factures émises.
     
 - **Graphiques dynamiques** :
-  
-  - Évolution des revenus.
   - Distribution des statuts des factures.
 
 ### **Notifications**
 - Envoi de notifications directement dans l'application pour alerter les utilisateurs.
-- Rappels automatiques pour les échéances importantes.
+
 
 ---
 
 ## **Technologies utilisées**
 - **Frontend** : ReactJS avec Ant Design pour une interface utilisateur intuitive.
 - **Backend** : NestJS et MongoDB pour la gestion des données.
-- **Notifications** : NodeMailer pour l’envoi des e-mails.
+- **Vérification de compte par e-mail** : NodeMailer est utilisé pour envoyer un lien de vérification à l'utilisateur lors de l'inscription ou pour réinitialiser un mot de passe.
 - **Graphiques interactifs** : Chart.js pour les tableaux de bord.
 - **Sécurité** : JWT pour l’authentification et le suivi des sessions.
 
