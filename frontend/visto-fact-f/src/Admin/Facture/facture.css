@@ -1,0 +1,160 @@
+/* YourComponent.css */
+
+/* Titre de la modal */
+.ant-modal-title {
+  color: #282727;
+  padding: 10px 16px;
+  border-bottom: 1px solid #2b2a2a;
+}
+
+/* Conteneur de la modal */
+.ant-modal {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Libellé des champs du formulaire */
+.ant-form-item-label {
+  min-width: 120px;
+  text-align: left;
+  padding-right: 8px;
+}
+
+/* Champ de formulaire */
+.ant-form-item-control {
+  flex: 1;
+}
+
+/* Bouton primaire */
+.ant-btn-primary {
+  background-color: #001529;
+  border-color: #001529;
+}
+
+.ant-btn-primary:hover {
+  background-color: #004c99;
+  border-color: #004c99;
+}
+
+/* Styles pour les champs de sélection, input et date picker */
+.ant-select-selector,
+.ant-input,
+.ant-picker {
+  border-radius: 4px;
+}
+
+/* Styles pour la table */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Styles pour les boutons dans les cellules de la table */
+.custom-table tbody td button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Style pour le bouton de création */
+.create-button {
+  color: #fff;
+  background-color: #1890ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.create-button:hover {
+  background-color: #40a9ff;
+}
+
+/* CSS pour styliser la table */
+.table-container {
+  border-radius: 8px; /* Coins arrondis de la table */
+  overflow: hidden; /* Pour cacher le débordement des coins arrondis */
+}
+
+/* CSS pour styliser l'en-tête de la table */
+.table-container thead {
+  background-color: #3c6382; /* Couleur de fond de l'en-tête */
+  color: #ffffff; /* Couleur du texte de l'en-tête */
+}
+
+/* CSS pour styliser les cellules de l'en-tête de la table */
+.table-container th {
+  padding: 12px; /* Remplissage des cellules de l'en-tête */
+  text-align: center; /* Alignement du texte au centre */
+  border: 1px solid #dddddd; /* Bordure de la cellule */
+}
+
+/* CSS pour styliser les lignes de données de la table */
+.table-container tbody tr {
+  background-color: #ffffff; /* Couleur de fond des lignes de données */
+}
+
+/* CSS pour styliser les cellules de données de la table */
+.table-container td {
+  padding: 12px; /* Remplissage des cellules de données */
+  text-align: center; /* Alignement du texte au centre */
+  border: 1px solid #dddddd; /* Bordure de la cellule */
+}
+
+/* Style de la table */
+.facture-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+/* Style des cellules */
+.facture-table td,
+.facture-table th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style de l'en-tête */
+.facture-table th {
+  background-color: #f0f0f0; /* Couleur de fond de l'en-tête */
+  color: #333; /* Couleur du texte de l'en-tête */
+}
+
+/* Style pour les lignes impaires */
+.facture-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Couleur de fond des lignes impaires */
+}

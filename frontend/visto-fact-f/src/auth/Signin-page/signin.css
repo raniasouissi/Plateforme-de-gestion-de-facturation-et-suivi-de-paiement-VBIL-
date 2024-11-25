@@ -1,0 +1,227 @@
+.custom-signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5 !important;
+
+  border-radius: 1px;
+
+  /* Animation */
+  animation: fadeIn 1s ease-out forwards;
+  transform-origin: center;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.custom-signin-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 53%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 2px;
+  padding: 20px; /* Augmentez l'espace intérieur */
+  background-color: #fff;
+}
+/*my(mech ehdha mbadla esm classe 5atr fama mochkla*/
+.custom-formm-container {
+  justify-content: center; /* Centrage horizontal du contenu */
+  align-items: center;
+
+  flex: 1;
+  text-align: center;
+
+  padding: 0 30px; /* Ajustez les espaces intérieurs */
+}
+
+.logo-titlee-container {
+  display: flex; /* Utiliser flexbox pour aligner horizontalement */
+  align-items: center; /* Centrer verticalement les éléments */
+  justify-content: center; /* Centrer horizontalement les éléments */
+  margin-bottom: 30px;
+}
+
+.app-logo1 {
+  width: 45px;
+  height: 38px;
+}
+
+.custom-title1 {
+  margin-top: 25px;
+  margin-right: 5px;
+  /* margin-left: -7px; Ne pas spécifier de marge gauche pour garder le titre centré */
+}
+
+.custom-subtitle {
+  font-size: 1rem; /* Taille du sous-titre */
+  color: #121477;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+
+  margin-left: 5px;
+}
+
+.subtitle-container {
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.custom-form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-left: 30px;
+}
+
+.custom-form-item {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.site-form-item-icon {
+  font-size: 18px; /* Ajustez la taille des icônes */
+  color: #b4b5b9; /* Couleur principale des icônes */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Légère ombre pour ajouter de la profondeur */
+  transition: transform 0.3s ease; /* Transition pour l'effet de survol */
+}
+
+.custom-signin-container
+  .custom-signin-content
+  .custom-form-container
+  .custom-submit-buttonn.loading {
+  opacity: 0.7; /* Réduire l'opacité pendant le chargement */
+}
+
+.custom-signin-container
+  .custom-signin-content
+  .custom-form-container
+  .custom-submit-buttonn:hover {
+  background-color: #1c1e9f;
+  transform: scale(1.05); /* Effet d'agrandissement au survol */
+}
+.custom-forgot-password-container {
+  text-align: right; /* Aligner le texte à droite */
+  margin-bottom: 20px;
+}
+
+.custom-forgot-password {
+  font-size: 15px; /* Taille de la police */
+  color: #121477; /* Couleur du texte */
+  text-decoration: none; /* Supprimer le soulignement par défaut */
+  transition: color 0.3s; /* Animation de transition pour la couleur */
+  font-family: "Poppins", sans-serif;
+  margin-right: 10px;
+}
+
+.custom-forgot-password:hover {
+  color: #121477;
+  transform: scale(1.1);
+}
+
+.custom-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: transparent;
+}
+
+.custom-mt-3 {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.custom-signup-link {
+  color: #0b3795;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-signup-link:hover {
+  color: #0b3795;
+}
+
+.custom-signup-text {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+
+  text-decoration: none; /* Supprime la soulignement par défaut */
+}
+
+.custom-image-container {
+  position: relative;
+  width: 47%; /* Largeur du conteneur */
+  height: 100%; /* Hauteur du conteneur */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-right: -20px;
+  margin-top: -20px;
+  margin-bottom: -13px;
+}
+
+.custom-image-container img {
+  transform: scale(1.1);
+  width: 100%; /* L'image occupe toute la largeur du conteneur */
+  height: 100%; /* L'image occupe toute la hauteur du conteneur */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+  filter: grayscale(
+    10%
+  ); /* Appliquer un filtre de désaturation pour une touche créative */
+}
+
+.custom-image-container:hover img {
+  filter: grayscale(0%); /* Supprimer le filtre de désaturation au survol */
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.custom-home-button {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  color: #0b3795;
+
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 5.1%;
+  transition: transform 0.3s; /* Ajout d'une transition au survol */
+}
+
+.custom-home-button:hover {
+  transform: scale(1.1);
+}
+
+.custom-home-button:active {
+  color: #eff2f5; /* Couleur du texte lors du clic */
+}

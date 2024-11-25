@@ -1,0 +1,121 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligner le formulaire en haut */
+  background-color: #f0f2f5; /* Changer la couleur de fond */
+  min-height: 100vh; /* Occupera au moins toute la hauteur de la fenêtre */
+  margin: 0; /* Supprimer les marges par défaut */
+  padding: 40px; /* Ajouter un peu d'espace intérieur */
+}
+
+.signup-card {
+  width: 65%; /* Augmenter la largeur de la carte */
+  height: 710px; /* Définir une hauteur fixe pour la carte */
+  padding: 10px; /* Augmenter la marge intérieure pour plus d'espace */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: auto; /* Centrer la carte horizontalement */
+}
+
+.signup-form {
+  margin-right: 15px;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+.headerb {
+  margin-top: 10px;
+  text-align: center; /* Centrer le contenu */
+  margin-top: 20px; /* Ajouter un peu d'espace en bas */
+  margin-right: 20px;
+}
+
+.welcome-text {
+  font-size: 33px;
+  color: #121477; /* Bleu foncé */
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre portée pour un effet 3D */
+}
+
+.subtitle {
+  font-size: 19px;
+  color: #454444;
+
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  animation: fadeIn 1s ease-in-out; /* Animation de fondu */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.button-signup {
+  height: 40px;
+  border-radius: 3px;
+  background-color: #1444ac;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: -10px;
+
+  margin-left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-signup:hover {
+  background-color: #0a3297 !important; /* Nouvelle couleur au survol */
+}
+
+.mt-4 {
+  text-align: center;
+  margin-right: -70px;
+}
+
+.signin-t {
+  font-size: 17px;
+  color: #454444; /* Bleu clair */
+  font-family: "Poppins", sans-serif;
+}
+
+.signin-link {
+  color: #0a579f;
+
+  transition: color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.signin-link:hover {
+  color: #3182ce;
+}
+.custom-input::placeholder {
+  color: #a3a2a2;
+  font-size: 19px;
+}
+
+/* style.css */
+.placeholder-style::placeholder {
+  color: #a3a2a2;
+  font-weight: normal; /* Style de fonte normal */
+  font-size: 17px;
+}
+.icon-style {
+  color: #868687;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
