@@ -6,7 +6,7 @@
 ## Page d'accueil
 Voici la capture d'écran de la **page d'accueil** de l'application. Elle présente l'interface de connexion ainsi que les principales sections accessibles aux utilisateurs.
 
-![Page d'accueil](assets/homepage.png)
+![Page d'accueil](assets/vbill.png)
 
 ## Autres captures d'écran
 Vous pouvez voir d'autres captures d'écran de l'application dans le dossier `assets`. Ces captures illustrent les différentes sections et fonctionnalités de la plateforme
