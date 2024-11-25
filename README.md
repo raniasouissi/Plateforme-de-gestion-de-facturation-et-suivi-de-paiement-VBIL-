@@ -3,6 +3,13 @@
 **Vbil** est une solution complète et intuitive pour automatiser la gestion de facturation et suivre les paiements efficacement. La plateforme est conçue pour simplifier les tâches administratives tout en offrant des outils performants, un tableau de bord interactif, et des notifications pour une gestion optimale.
 
 ---
+## Page d'accueil
+Voici la capture d'écran de la **page d'accueil** de l'application. Elle présente l'interface de connexion ainsi que les principales sections accessibles aux utilisateurs.
+
+![Page d'accueil](assets/homepage.png)
+
+## Autres captures d'écran
+Vous pouvez voir d'autres captures d'écran de l'application dans le dossier `assets`. Ces captures illustrent les différentes sections et fonctionnalités de la plateforme
 
 ## **Fonctionnalités principales**
 
